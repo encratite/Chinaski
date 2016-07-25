@@ -17,6 +17,14 @@ create table user_account
 	registration_time timestamp not null default now_utc()
 );
 
+drop table if exists invitation cascade;
+
+create table invitation
+(
+	code text primary key,
+	invited_user_id int references user_account (id)
+);
+
 drop table if exists session cascade;
 
 create table session
