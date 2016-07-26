@@ -49,6 +49,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Configuration.cs" />
+    <Compile Include="Model\LoginModel.cs" />
+    <Compile Include="Model\RegisterModel.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="RequestHandler.cs" />
   </ItemGroup>

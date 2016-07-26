@@ -1,7 +1,9 @@
 ﻿namespace Chinaski
 {
-	class Configuration
+    class Configuration
 	{
 		public string Prefix { get; set; }
+
+        public string ConnectionString { get; set; }
 	}
 }
